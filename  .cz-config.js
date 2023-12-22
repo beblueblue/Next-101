@@ -25,7 +25,7 @@ module.exports = {
       name: '🚀 chore:    构建/工程依赖/工具',
     },
   ],
-  scopes: [{ name: 'crate project' }, { name: 'routing' }],
+  scopes: [{ name: 'routing' }, { name: 'crate project' }],
   messages: {
     type: '请选择提交类型(必填)',
     customScope: '请输入文件修改范围(可选)',
