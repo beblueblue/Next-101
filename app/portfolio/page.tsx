@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>The Portfolio page</h1>
+        <h1>The Portfolio Page</h1>
       </div>
     </main>
   );
