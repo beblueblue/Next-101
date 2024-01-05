@@ -10,7 +10,9 @@ export default function SelectedClientProject({
   params: SelectedClientProject;
 }) {
   // When we set the component as server component by default, the log will be printed only on server.
-  // When we set the component as client component by 'use client', the log will be printed on both server and client.
+  // When we set the component as client component by 'use client',
+  //    1. the log will be printed on client when Every time the page is rendered.
+  //    2. the log will be printed on server when the page get by new http request.
   console.log('params:', params);
 
   const pathName = usePathname();
