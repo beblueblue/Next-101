@@ -14,10 +14,10 @@ export default function Home() {
         {/* <a href="/portfolio">portfolio</a> */}
         {/* </li> */}
         <li>
-          <Link href={'/portfolio'}>portfolio</Link>
+          <Link href="/portfolio">portfolio</Link>
         </li>
         <li>
-          <Link href={'/clients'}>clients</Link>
+          <Link href="/clients">clients</Link>
         </li>
       </ul>
     </main>
