@@ -16,6 +16,15 @@ export default function Clients() {
         {clients.map((client) => (
           <li key={client.id}>
             <Link href={`/clients/${client.id}`}>{client.name}</Link>
+            {/* no support, cc https://nextjs.org/docs/messages/app-dir-dynamic-href */}
+            {/* <Link
+              href={{
+                pathname: '/clients/[id]',
+                query: { id: client.id },
+              }}
+            >
+              {client.name}
+            </Link> */}
           </li>
         ))}
       </ul>
